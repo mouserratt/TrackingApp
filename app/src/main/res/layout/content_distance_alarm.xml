@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.loyalty4l.trackingapp.DistanceAlarm"
+    tools:showIn="@layout/activity_distance_alarm">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2m"
+        android:id="@+id/RadioBtn_2m"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10m"
+        android:id="@+id/RadioBtn_10m"
+        android:layout_below="@+id/RadioBtn_2m"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20m"
+        android:id="@+id/RadioBtn_20m"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Alarm"
+        android:id="@+id/Switch_StartAlarm"
+        android:layout_marginTop="68dp"
+        android:checked="false"
+        android:layout_below="@+id/RadioBtn_20m"
+        android:layout_alignStart="@+id/Txt_DistanceAlarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Distance Alarm"
+        android:id="@+id/Txt_DistanceAlarm"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=0F:A3:7B:16:97:A4:67:58:0B:5E:1C:76:CC:FB:72:35:D1:61:1B:16%3Bcom.loyalty4l.trackingapp
+
+    You can also add your credentials to an existing key, using this line:
+    0F:A3:7B:16:97:A4:67:58:0B:5E:1C:76:CC:FB:72:35:D1:61:1B:16;com.loyalty4l.trackingapp
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAVQQu6ibIyn9wF1rdFsNzvE5AxJ0DXKjI</string>
+</resources>
